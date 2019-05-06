@@ -23,10 +23,10 @@
 //**************************************************************************************//
 
 #include "ENC28J60.h"
-#include "mcc_generated_files/mcc.h"
 //********************************************************************//
 // HardWare Interface
 //********************************************************************//
+#include "mcc_generated_files/mcc.h"
 #define SPI_CS_LOW()        SS1_Toggle()//SS1_SetLow()
 #define SPI_CS_HIGH()       SS1_SetHigh()
 uint8_t SPI_8bit_Read(void)

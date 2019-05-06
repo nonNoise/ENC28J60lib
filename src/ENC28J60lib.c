@@ -25,7 +25,6 @@
 
 #include "ENC28J60.h"
 #include "ENC28J60lib.h"
-#include "mcc_generated_files/mcc.h"
 
 
 void ENC28J60_LIB_ALLRESET(void)
