@@ -12,7 +12,7 @@ ENC28J60lib.c = ENC28J60 API leyer source code
 
 Please change the following contents in each environment at "ENC28J60.c"
 
-.. highlight:: c
+::
 
 	//********************************************************************//
 	// HardWare Interface
